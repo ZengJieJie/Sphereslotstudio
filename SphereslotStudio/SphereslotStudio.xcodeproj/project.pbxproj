@@ -1,0 +1,1143 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53A5EDEAC29905F9B68CB177 /* Pods_SphereslotStudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0CC237F549F9825FC6680B /* Pods_SphereslotStudio.framework */; };
+		C662B2EA2C7DAF69001C5DF5 /* SphereslotStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B2E92C7DAF69001C5DF5 /* SphereslotStartViewController.m */; };
+		C662B2ED2C7DAF69001C5DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C662B2EB2C7DAF69001C5DF5 /* Main.storyboard */; };
+		C662B2EF2C7DAF6D001C5DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C662B2EE2C7DAF6D001C5DF5 /* Assets.xcassets */; };
+		C662B2F22C7DAF6D001C5DF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C662B2F02C7DAF6D001C5DF5 /* LaunchScreen.storyboard */; };
+		C662B2F52C7DAF6D001C5DF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B2F42C7DAF6D001C5DF5 /* main.m */; };
+		C662B2FF2C7DAF6E001C5DF5 /* SphereslotStudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B2FE2C7DAF6E001C5DF5 /* SphereslotStudioTests.m */; };
+		C662B3092C7DAF6E001C5DF5 /* SphereslotStudioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B3082C7DAF6E001C5DF5 /* SphereslotStudioUITests.m */; };
+		C662B30B2C7DAF6E001C5DF5 /* SphereslotStudioUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B30A2C7DAF6E001C5DF5 /* SphereslotStudioUITestsLaunchTests.m */; };
+		C662B3192C7DB026001C5DF5 /* SphereslotHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B3182C7DB026001C5DF5 /* SphereslotHomeViewController.swift */; };
+		C662B31B2C7DB038001C5DF5 /* SphereslotSlotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B31A2C7DB038001C5DF5 /* SphereslotSlotViewController.swift */; };
+		C662B31D2C7DB052001C5DF5 /* SphereslotGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B31C2C7DB052001C5DF5 /* SphereslotGameViewController.swift */; };
+		C662B31F2C7DB063001C5DF5 /* SphereslotGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B31E2C7DB063001C5DF5 /* SphereslotGViewController.swift */; };
+		C662B3212C7DB072001C5DF5 /* SphereslotSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B3202C7DB072001C5DF5 /* SphereslotSetViewController.swift */; };
+		C662B3232C7DB08A001C5DF5 /* SphereslotAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B3222C7DB08A001C5DF5 /* SphereslotAboutViewController.swift */; };
+		C662B3252C7DB09E001C5DF5 /* SphereslotPriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B3242C7DB09E001C5DF5 /* SphereslotPriViewController.swift */; };
+		C662B3272C7DB0B0001C5DF5 /* SphereslotFeebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B3262C7DB0B0001C5DF5 /* SphereslotFeebViewController.swift */; };
+		C662B3292C7DB1AA001C5DF5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B3282C7DB1AA001C5DF5 /* File.swift */; };
+		C662B32C2C7DB1C3001C5DF5 /* sphereslotStudio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C662B32A2C7DB1C3001C5DF5 /* sphereslotStudio.xcdatamodeld */; };
+		C662B33D2C7DB65E001C5DF5 /* jsb_module_register.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C662B33A2C7DB65E001C5DF5 /* jsb_module_register.cpp */; };
+		C662B33E2C7DB65E001C5DF5 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C662B33C2C7DB65E001C5DF5 /* AppDelegate.cpp */; };
+		C662B3422C7DB666001C5DF5 /* SphereslotAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B32F2C7DB647001C5DF5 /* SphereslotAppDelegate.m */; };
+		C662B3432C7DB666001C5DF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C662B3302C7DB64A001C5DF5 /* Images.xcassets */; };
+		C662B3442C7DB666001C5DF5 /* PlatformIosApi.mm in Sources */ = {isa = PBXBuildFile; fileRef = C662B3352C7DB655001C5DF5 /* PlatformIosApi.mm */; };
+		C662B3452C7DB666001C5DF5 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C662B3372C7DB65B001C5DF5 /* RootViewController.mm */; };
+		C662B3462C7DB666001C5DF5 /* SDKWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C662B33F2C7DB661001C5DF5 /* SDKWrapper.m */; };
+		C662B3602C7DB6FA001C5DF5 /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B35F2C7DB6FA001C5DF5 /* AdServices.framework */; };
+		C662B3622C7DB6FF001C5DF5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B3612C7DB6FF001C5DF5 /* AdSupport.framework */; };
+		C662B3642C7DB703001C5DF5 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B3632C7DB703001C5DF5 /* AppTrackingTransparency.framework */; };
+		C662B3662C7DB709001C5DF5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B3652C7DB709001C5DF5 /* AudioToolbox.framework */; };
+		C662B3682C7DB70F001C5DF5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B3672C7DB70F001C5DF5 /* AVFoundation.framework */; };
+		C662B36A2C7DB715001C5DF5 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B3692C7DB715001C5DF5 /* AVKit.framework */; };
+		C662B36C2C7DB71A001C5DF5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B36B2C7DB71A001C5DF5 /* CFNetwork.framework */; };
+		C662B36E2C7DB722001C5DF5 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B36D2C7DB722001C5DF5 /* CoreFoundation.framework */; };
+		C662B3702C7DB727001C5DF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B36F2C7DB727001C5DF5 /* CoreGraphics.framework */; };
+		C662B3722C7DB73A001C5DF5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B3712C7DB73A001C5DF5 /* CoreMedia.framework */; };
+		C662B3742C7DB73F001C5DF5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B3732C7DB73F001C5DF5 /* CoreMotion.framework */; };
+		C662B3762C7DB745001C5DF5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B3752C7DB745001C5DF5 /* CoreText.framework */; };
+		C662B3782C7DB74B001C5DF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B3772C7DB74B001C5DF5 /* Foundation.framework */; };
+		C662B37A2C7DB751001C5DF5 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B3792C7DB751001C5DF5 /* GameController.framework */; };
+		C662B37C2C7DB757001C5DF5 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B37B2C7DB756001C5DF5 /* JavaScriptCore.framework */; };
+		C662B37E2C7DB75C001C5DF5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B37D2C7DB75C001C5DF5 /* MobileCoreServices.framework */; };
+		C662B3802C7DB761001C5DF5 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B37F2C7DB761001C5DF5 /* OpenAL.framework */; };
+		C662B3822C7DB765001C5DF5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B3812C7DB765001C5DF5 /* OpenGLES.framework */; };
+		C662B3842C7DB76D001C5DF5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B3832C7DB76C001C5DF5 /* QuartzCore.framework */; };
+		C662B3862C7DB772001C5DF5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B3852C7DB772001C5DF5 /* Security.framework */; };
+		C662B3882C7DB777001C5DF5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B3872C7DB776001C5DF5 /* SystemConfiguration.framework */; };
+		C662B38A2C7DB77B001C5DF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B3892C7DB77B001C5DF5 /* UIKit.framework */; };
+		C662B38C2C7DB780001C5DF5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B38B2C7DB780001C5DF5 /* WebKit.framework */; };
+		C662B38D2C7DB785001C5DF5 /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B35B2C7DB695001C5DF5 /* libcocos2d iOS.a */; };
+		C662B38F2C7DB78F001C5DF5 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B38E2C7DB78C001C5DF5 /* libiconv.tbd */; };
+		C662B3912C7DB79E001C5DF5 /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B3902C7DB79A001C5DF5 /* libicucore.A.tbd */; };
+		C662B3932C7DB7AA001C5DF5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B3922C7DB7A7001C5DF5 /* libsqlite3.0.tbd */; };
+		C662B3952C7DB7B3001C5DF5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C662B3942C7DB7B0001C5DF5 /* libz.tbd */; };
+		C662B3AA2C7F3049001C5DF5 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = C662B3A92C7F3049001C5DF5 /* assets */; };
+		C662B3B02C7F30F9001C5DF5 /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = C662B3AB2C7F30F1001C5DF5 /* project.json */; };
+		C662B3B12C7F30F9001C5DF5 /* src in Resources */ = {isa = PBXBuildFile; fileRef = C662B3AC2C7F30F3001C5DF5 /* src */; };
+		C662B3B22C7F30F9001C5DF5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C662B3AD2C7F30F5001C5DF5 /* Localizable.strings */; };
+		C662B3B32C7F30F9001C5DF5 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = C662B3AE2C7F30F7001C5DF5 /* main.js */; };
+		C662B3B42C7F30F9001C5DF5 /* jsb-adapter in Resources */ = {isa = PBXBuildFile; fileRef = C662B3AF2C7F30F9001C5DF5 /* jsb-adapter */; };
+		FFC2CDC22C7DF19900C0EEC2 /* SphereslotBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC2CDC12C7DF19900C0EEC2 /* SphereslotBaseViewController.swift */; };
+		FFC2CDCE2C7DF50100C0EEC2 /* SphereslotCrashStubProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC2CDC82C7DF50100C0EEC2 /* SphereslotCrashStubProxy.m */; };
+		FFC2CDCF2C7DF50100C0EEC2 /* SphereslotCrashChange.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC2CDCB2C7DF50100C0EEC2 /* SphereslotCrashChange.m */; };
+		FFC2CDE32C7DF50C00C0EEC2 /* NSArray+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC2CDD12C7DF50C00C0EEC2 /* NSArray+AvoidCrash.m */; };
+		FFC2CDE42C7DF50C00C0EEC2 /* NSAttributedString+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC2CDD42C7DF50C00C0EEC2 /* NSAttributedString+AvoidCrash.m */; };
+		FFC2CDE52C7DF50C00C0EEC2 /* NSDictionary+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC2CDD52C7DF50C00C0EEC2 /* NSDictionary+AvoidCrash.m */; };
+		FFC2CDE62C7DF50C00C0EEC2 /* NSMutableString+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC2CDD72C7DF50C00C0EEC2 /* NSMutableString+AvoidCrash.m */; };
+		FFC2CDE72C7DF50C00C0EEC2 /* NSObject+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC2CDD82C7DF50C00C0EEC2 /* NSObject+AvoidCrash.m */; };
+		FFC2CDE82C7DF50C00C0EEC2 /* NSMutableAttributedString+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC2CDDC2C7DF50C00C0EEC2 /* NSMutableAttributedString+AvoidCrash.m */; };
+		FFC2CDE92C7DF50C00C0EEC2 /* NSMutableArray+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC2CDDF2C7DF50C00C0EEC2 /* NSMutableArray+AvoidCrash.m */; };
+		FFC2CDEA2C7DF50C00C0EEC2 /* NSString+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC2CDE12C7DF50C00C0EEC2 /* NSString+AvoidCrash.m */; };
+		FFC2CDEB2C7DF50C00C0EEC2 /* NSMutableDictionary+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC2CDE22C7DF50C00C0EEC2 /* NSMutableDictionary+AvoidCrash.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C662B2FB2C7DAF6E001C5DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C662B2D72C7DAF69001C5DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C662B2DE2C7DAF69001C5DF5;
+			remoteInfo = SphereslotStudio;
+		};
+		C662B3052C7DAF6E001C5DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C662B2D72C7DAF69001C5DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C662B2DE2C7DAF69001C5DF5;
+			remoteInfo = SphereslotStudio;
+		};
+		C662B3582C7DB695001C5DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C662B3532C7DB695001C5DF5 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1551A33F158F2AB200E66CFE;
+			remoteInfo = "libcocos2d Mac";
+		};
+		C662B35A2C7DB695001C5DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C662B3532C7DB695001C5DF5 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A07A4D641783777C0073F6A7;
+			remoteInfo = "libcocos2d iOS";
+		};
+		C662B35D2C7DB6E1001C5DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C662B3532C7DB695001C5DF5 /* cocos2d_libs.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A07A4C241783777C0073F6A7;
+			remoteInfo = "libcocos2d iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E0CC237F549F9825FC6680B /* Pods_SphereslotStudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SphereslotStudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67533B231E8964C0830AE5BF /* Pods-SphereslotStudio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SphereslotStudio.debug.xcconfig"; path = "Target Support Files/Pods-SphereslotStudio/Pods-SphereslotStudio.debug.xcconfig"; sourceTree = "<group>"; };
+		8767D126959897176C2D7417 /* Pods-SphereslotStudio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SphereslotStudio.release.xcconfig"; path = "Target Support Files/Pods-SphereslotStudio/Pods-SphereslotStudio.release.xcconfig"; sourceTree = "<group>"; };
+		C662B2DF2C7DAF69001C5DF5 /* SphereslotStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SphereslotStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C662B2E82C7DAF69001C5DF5 /* SphereslotStartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SphereslotStartViewController.h; sourceTree = "<group>"; };
+		C662B2E92C7DAF69001C5DF5 /* SphereslotStartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SphereslotStartViewController.m; sourceTree = "<group>"; };
+		C662B2EC2C7DAF69001C5DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C662B2EE2C7DAF6D001C5DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C662B2F12C7DAF6D001C5DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C662B2F32C7DAF6D001C5DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C662B2F42C7DAF6D001C5DF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C662B2FA2C7DAF6E001C5DF5 /* SphereslotStudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphereslotStudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C662B2FE2C7DAF6E001C5DF5 /* SphereslotStudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SphereslotStudioTests.m; sourceTree = "<group>"; };
+		C662B3042C7DAF6E001C5DF5 /* SphereslotStudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphereslotStudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C662B3082C7DAF6E001C5DF5 /* SphereslotStudioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SphereslotStudioUITests.m; sourceTree = "<group>"; };
+		C662B30A2C7DAF6E001C5DF5 /* SphereslotStudioUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SphereslotStudioUITestsLaunchTests.m; sourceTree = "<group>"; };
+		C662B3172C7DB025001C5DF5 /* SphereslotStudio-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SphereslotStudio-Bridging-Header.h"; sourceTree = "<group>"; };
+		C662B3182C7DB026001C5DF5 /* SphereslotHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereslotHomeViewController.swift; sourceTree = "<group>"; };
+		C662B31A2C7DB038001C5DF5 /* SphereslotSlotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereslotSlotViewController.swift; sourceTree = "<group>"; };
+		C662B31C2C7DB052001C5DF5 /* SphereslotGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereslotGameViewController.swift; sourceTree = "<group>"; };
+		C662B31E2C7DB063001C5DF5 /* SphereslotGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereslotGViewController.swift; sourceTree = "<group>"; };
+		C662B3202C7DB072001C5DF5 /* SphereslotSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereslotSetViewController.swift; sourceTree = "<group>"; };
+		C662B3222C7DB08A001C5DF5 /* SphereslotAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereslotAboutViewController.swift; sourceTree = "<group>"; };
+		C662B3242C7DB09E001C5DF5 /* SphereslotPriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereslotPriViewController.swift; sourceTree = "<group>"; };
+		C662B3262C7DB0B0001C5DF5 /* SphereslotFeebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereslotFeebViewController.swift; sourceTree = "<group>"; };
+		C662B3282C7DB1AA001C5DF5 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		C662B32B2C7DB1C3001C5DF5 /* sphereslot_studio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sphereslot_studio.xcdatamodel; sourceTree = "<group>"; };
+		C662B32E2C7DB645001C5DF5 /* SphereslotAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereslotAppDelegate.h; sourceTree = "<group>"; };
+		C662B32F2C7DB647001C5DF5 /* SphereslotAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereslotAppDelegate.m; sourceTree = "<group>"; };
+		C662B3302C7DB64A001C5DF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C662B3332C7DB650001C5DF5 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		C662B3342C7DB653001C5DF5 /* PlatformIosApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformIosApi.h; sourceTree = "<group>"; };
+		C662B3352C7DB655001C5DF5 /* PlatformIosApi.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PlatformIosApi.mm; sourceTree = "<group>"; };
+		C662B3362C7DB658001C5DF5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C662B3372C7DB65B001C5DF5 /* RootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewController.mm; sourceTree = "<group>"; };
+		C662B3392C7DB65E001C5DF5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C662B33A2C7DB65E001C5DF5 /* jsb_module_register.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsb_module_register.cpp; sourceTree = "<group>"; };
+		C662B33B2C7DB65E001C5DF5 /* NativeConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeConfig.h; sourceTree = "<group>"; };
+		C662B33C2C7DB65E001C5DF5 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
+		C662B33F2C7DB661001C5DF5 /* SDKWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKWrapper.m; sourceTree = "<group>"; };
+		C662B3402C7DB663001C5DF5 /* SDKDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKDelegate.h; sourceTree = "<group>"; };
+		C662B3412C7DB665001C5DF5 /* SDKWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKWrapper.h; sourceTree = "<group>"; };
+		C662B3532C7DB695001C5DF5 /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = "cocos2d-x/build/cocos2d_libs.xcodeproj"; sourceTree = "<group>"; };
+		C662B35F2C7DB6FA001C5DF5 /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		C662B3612C7DB6FF001C5DF5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C662B3632C7DB703001C5DF5 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		C662B3652C7DB709001C5DF5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C662B3672C7DB70F001C5DF5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C662B3692C7DB715001C5DF5 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		C662B36B2C7DB71A001C5DF5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C662B36D2C7DB722001C5DF5 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C662B36F2C7DB727001C5DF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C662B3712C7DB73A001C5DF5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C662B3732C7DB73F001C5DF5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C662B3752C7DB745001C5DF5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C662B3772C7DB74B001C5DF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C662B3792C7DB751001C5DF5 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		C662B37B2C7DB756001C5DF5 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		C662B37D2C7DB75C001C5DF5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C662B37F2C7DB761001C5DF5 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		C662B3812C7DB765001C5DF5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C662B3832C7DB76C001C5DF5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C662B3852C7DB772001C5DF5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C662B3872C7DB776001C5DF5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C662B3892C7DB77B001C5DF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C662B38B2C7DB780001C5DF5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C662B38E2C7DB78C001C5DF5 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		C662B3902C7DB79A001C5DF5 /* libicucore.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
+		C662B3922C7DB7A7001C5DF5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		C662B3942C7DB7B0001C5DF5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C662B3A92C7F3049001C5DF5 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		C662B3AB2C7F30F1001C5DF5 /* project.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = project.json; sourceTree = "<group>"; };
+		C662B3AC2C7F30F3001C5DF5 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		C662B3AD2C7F30F5001C5DF5 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		C662B3AE2C7F30F7001C5DF5 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		C662B3AF2C7F30F9001C5DF5 /* jsb-adapter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "jsb-adapter"; sourceTree = "<group>"; };
+		C662B3B52C7F3122001C5DF5 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		C662B3B62C7F3124001C5DF5 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C662B3B72C7F3128001C5DF5 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
+		C662B3B82C7F312A001C5DF5 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FFC2CDC12C7DF19900C0EEC2 /* SphereslotBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereslotBaseViewController.swift; sourceTree = "<group>"; };
+		FFC2CDC82C7DF50100C0EEC2 /* SphereslotCrashStubProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereslotCrashStubProxy.m; sourceTree = "<group>"; };
+		FFC2CDC92C7DF50100C0EEC2 /* SphereslotCrashChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereslotCrashChange.h; sourceTree = "<group>"; };
+		FFC2CDCA2C7DF50100C0EEC2 /* SphereslotCrashProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereslotCrashProtocol.h; sourceTree = "<group>"; };
+		FFC2CDCB2C7DF50100C0EEC2 /* SphereslotCrashChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereslotCrashChange.m; sourceTree = "<group>"; };
+		FFC2CDCC2C7DF50100C0EEC2 /* SphereslotCrashStubProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereslotCrashStubProxy.h; sourceTree = "<group>"; };
+		FFC2CDD12C7DF50C00C0EEC2 /* NSArray+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AvoidCrash.m"; sourceTree = "<group>"; };
+		FFC2CDD22C7DF50C00C0EEC2 /* NSMutableAttributedString+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+AvoidCrash.h"; sourceTree = "<group>"; };
+		FFC2CDD32C7DF50C00C0EEC2 /* NSString+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AvoidCrash.h"; sourceTree = "<group>"; };
+		FFC2CDD42C7DF50C00C0EEC2 /* NSAttributedString+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+AvoidCrash.m"; sourceTree = "<group>"; };
+		FFC2CDD52C7DF50C00C0EEC2 /* NSDictionary+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+AvoidCrash.m"; sourceTree = "<group>"; };
+		FFC2CDD62C7DF50C00C0EEC2 /* NSMutableArray+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+AvoidCrash.h"; sourceTree = "<group>"; };
+		FFC2CDD72C7DF50C00C0EEC2 /* NSMutableString+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+AvoidCrash.m"; sourceTree = "<group>"; };
+		FFC2CDD82C7DF50C00C0EEC2 /* NSObject+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AvoidCrash.m"; sourceTree = "<group>"; };
+		FFC2CDD92C7DF50C00C0EEC2 /* NSAttributedString+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+AvoidCrash.h"; sourceTree = "<group>"; };
+		FFC2CDDA2C7DF50C00C0EEC2 /* NSObject+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AvoidCrash.h"; sourceTree = "<group>"; };
+		FFC2CDDB2C7DF50C00C0EEC2 /* NSMutableDictionary+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+AvoidCrash.h"; sourceTree = "<group>"; };
+		FFC2CDDC2C7DF50C00C0EEC2 /* NSMutableAttributedString+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+AvoidCrash.m"; sourceTree = "<group>"; };
+		FFC2CDDD2C7DF50C00C0EEC2 /* NSDictionary+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+AvoidCrash.h"; sourceTree = "<group>"; };
+		FFC2CDDE2C7DF50C00C0EEC2 /* NSArray+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AvoidCrash.h"; sourceTree = "<group>"; };
+		FFC2CDDF2C7DF50C00C0EEC2 /* NSMutableArray+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+AvoidCrash.m"; sourceTree = "<group>"; };
+		FFC2CDE02C7DF50C00C0EEC2 /* NSMutableString+AvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+AvoidCrash.h"; sourceTree = "<group>"; };
+		FFC2CDE12C7DF50C00C0EEC2 /* NSString+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AvoidCrash.m"; sourceTree = "<group>"; };
+		FFC2CDE22C7DF50C00C0EEC2 /* NSMutableDictionary+AvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+AvoidCrash.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C662B2DC2C7DAF69001C5DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C662B3842C7DB76D001C5DF5 /* QuartzCore.framework in Frameworks */,
+				53A5EDEAC29905F9B68CB177 /* Pods_SphereslotStudio.framework in Frameworks */,
+				C662B38C2C7DB780001C5DF5 /* WebKit.framework in Frameworks */,
+				C662B3722C7DB73A001C5DF5 /* CoreMedia.framework in Frameworks */,
+				C662B37A2C7DB751001C5DF5 /* GameController.framework in Frameworks */,
+				C662B3862C7DB772001C5DF5 /* Security.framework in Frameworks */,
+				C662B3932C7DB7AA001C5DF5 /* libsqlite3.0.tbd in Frameworks */,
+				C662B3952C7DB7B3001C5DF5 /* libz.tbd in Frameworks */,
+				C662B38A2C7DB77B001C5DF5 /* UIKit.framework in Frameworks */,
+				C662B3642C7DB703001C5DF5 /* AppTrackingTransparency.framework in Frameworks */,
+				C662B3882C7DB777001C5DF5 /* SystemConfiguration.framework in Frameworks */,
+				C662B37C2C7DB757001C5DF5 /* JavaScriptCore.framework in Frameworks */,
+				C662B36E2C7DB722001C5DF5 /* CoreFoundation.framework in Frameworks */,
+				C662B38D2C7DB785001C5DF5 /* libcocos2d iOS.a in Frameworks */,
+				C662B3822C7DB765001C5DF5 /* OpenGLES.framework in Frameworks */,
+				C662B36C2C7DB71A001C5DF5 /* CFNetwork.framework in Frameworks */,
+				C662B3782C7DB74B001C5DF5 /* Foundation.framework in Frameworks */,
+				C662B3682C7DB70F001C5DF5 /* AVFoundation.framework in Frameworks */,
+				C662B3662C7DB709001C5DF5 /* AudioToolbox.framework in Frameworks */,
+				C662B3742C7DB73F001C5DF5 /* CoreMotion.framework in Frameworks */,
+				C662B36A2C7DB715001C5DF5 /* AVKit.framework in Frameworks */,
+				C662B3602C7DB6FA001C5DF5 /* AdServices.framework in Frameworks */,
+				C662B3702C7DB727001C5DF5 /* CoreGraphics.framework in Frameworks */,
+				C662B37E2C7DB75C001C5DF5 /* MobileCoreServices.framework in Frameworks */,
+				C662B38F2C7DB78F001C5DF5 /* libiconv.tbd in Frameworks */,
+				C662B3802C7DB761001C5DF5 /* OpenAL.framework in Frameworks */,
+				C662B3622C7DB6FF001C5DF5 /* AdSupport.framework in Frameworks */,
+				C662B3762C7DB745001C5DF5 /* CoreText.framework in Frameworks */,
+				C662B3912C7DB79E001C5DF5 /* libicucore.A.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662B2F72C7DAF6E001C5DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662B3012C7DAF6E001C5DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A58E4117996C992C4CAD09B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C662B3942C7DB7B0001C5DF5 /* libz.tbd */,
+				C662B3922C7DB7A7001C5DF5 /* libsqlite3.0.tbd */,
+				C662B3902C7DB79A001C5DF5 /* libicucore.A.tbd */,
+				C662B38E2C7DB78C001C5DF5 /* libiconv.tbd */,
+				C662B38B2C7DB780001C5DF5 /* WebKit.framework */,
+				C662B3892C7DB77B001C5DF5 /* UIKit.framework */,
+				C662B3872C7DB776001C5DF5 /* SystemConfiguration.framework */,
+				C662B3852C7DB772001C5DF5 /* Security.framework */,
+				C662B3832C7DB76C001C5DF5 /* QuartzCore.framework */,
+				C662B3812C7DB765001C5DF5 /* OpenGLES.framework */,
+				C662B37F2C7DB761001C5DF5 /* OpenAL.framework */,
+				C662B37D2C7DB75C001C5DF5 /* MobileCoreServices.framework */,
+				C662B37B2C7DB756001C5DF5 /* JavaScriptCore.framework */,
+				C662B3792C7DB751001C5DF5 /* GameController.framework */,
+				C662B3772C7DB74B001C5DF5 /* Foundation.framework */,
+				C662B3752C7DB745001C5DF5 /* CoreText.framework */,
+				C662B3732C7DB73F001C5DF5 /* CoreMotion.framework */,
+				C662B3712C7DB73A001C5DF5 /* CoreMedia.framework */,
+				C662B36F2C7DB727001C5DF5 /* CoreGraphics.framework */,
+				C662B36D2C7DB722001C5DF5 /* CoreFoundation.framework */,
+				C662B36B2C7DB71A001C5DF5 /* CFNetwork.framework */,
+				C662B3692C7DB715001C5DF5 /* AVKit.framework */,
+				C662B3672C7DB70F001C5DF5 /* AVFoundation.framework */,
+				C662B3652C7DB709001C5DF5 /* AudioToolbox.framework */,
+				C662B3632C7DB703001C5DF5 /* AppTrackingTransparency.framework */,
+				C662B3612C7DB6FF001C5DF5 /* AdSupport.framework */,
+				C662B35F2C7DB6FA001C5DF5 /* AdServices.framework */,
+				0E0CC237F549F9825FC6680B /* Pods_SphereslotStudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C662B2D62C7DAF69001C5DF5 = {
+			isa = PBXGroup;
+			children = (
+				C662B3A92C7F3049001C5DF5 /* assets */,
+				C662B3532C7DB695001C5DF5 /* cocos2d_libs.xcodeproj */,
+				C662B3472C7DB669001C5DF5 /* Resources */,
+				C662B3382C7DB65E001C5DF5 /* Classes */,
+				C662B2E12C7DAF69001C5DF5 /* SphereslotStudio */,
+				C662B2FD2C7DAF6E001C5DF5 /* SphereslotStudioTests */,
+				C662B3072C7DAF6E001C5DF5 /* SphereslotStudioUITests */,
+				C662B2E02C7DAF69001C5DF5 /* Products */,
+				F385C47557D7FCA7643129AF /* Pods */,
+				3A58E4117996C992C4CAD09B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C662B2E02C7DAF69001C5DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C662B2DF2C7DAF69001C5DF5 /* SphereslotStudio.app */,
+				C662B2FA2C7DAF6E001C5DF5 /* SphereslotStudioTests.xctest */,
+				C662B3042C7DAF6E001C5DF5 /* SphereslotStudioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C662B2E12C7DAF69001C5DF5 /* SphereslotStudio */ = {
+			isa = PBXGroup;
+			children = (
+				FFC2CDDE2C7DF50C00C0EEC2 /* NSArray+AvoidCrash.h */,
+				FFC2CDD12C7DF50C00C0EEC2 /* NSArray+AvoidCrash.m */,
+				FFC2CDD92C7DF50C00C0EEC2 /* NSAttributedString+AvoidCrash.h */,
+				FFC2CDD42C7DF50C00C0EEC2 /* NSAttributedString+AvoidCrash.m */,
+				FFC2CDDD2C7DF50C00C0EEC2 /* NSDictionary+AvoidCrash.h */,
+				FFC2CDD52C7DF50C00C0EEC2 /* NSDictionary+AvoidCrash.m */,
+				FFC2CDD62C7DF50C00C0EEC2 /* NSMutableArray+AvoidCrash.h */,
+				FFC2CDDF2C7DF50C00C0EEC2 /* NSMutableArray+AvoidCrash.m */,
+				FFC2CDD22C7DF50C00C0EEC2 /* NSMutableAttributedString+AvoidCrash.h */,
+				FFC2CDDC2C7DF50C00C0EEC2 /* NSMutableAttributedString+AvoidCrash.m */,
+				FFC2CDDB2C7DF50C00C0EEC2 /* NSMutableDictionary+AvoidCrash.h */,
+				FFC2CDE22C7DF50C00C0EEC2 /* NSMutableDictionary+AvoidCrash.m */,
+				FFC2CDE02C7DF50C00C0EEC2 /* NSMutableString+AvoidCrash.h */,
+				FFC2CDD72C7DF50C00C0EEC2 /* NSMutableString+AvoidCrash.m */,
+				FFC2CDDA2C7DF50C00C0EEC2 /* NSObject+AvoidCrash.h */,
+				FFC2CDD82C7DF50C00C0EEC2 /* NSObject+AvoidCrash.m */,
+				FFC2CDD32C7DF50C00C0EEC2 /* NSString+AvoidCrash.h */,
+				FFC2CDE12C7DF50C00C0EEC2 /* NSString+AvoidCrash.m */,
+				FFC2CDC92C7DF50100C0EEC2 /* SphereslotCrashChange.h */,
+				FFC2CDCB2C7DF50100C0EEC2 /* SphereslotCrashChange.m */,
+				FFC2CDCA2C7DF50100C0EEC2 /* SphereslotCrashProtocol.h */,
+				FFC2CDCC2C7DF50100C0EEC2 /* SphereslotCrashStubProxy.h */,
+				FFC2CDC82C7DF50100C0EEC2 /* SphereslotCrashStubProxy.m */,
+				C662B32E2C7DB645001C5DF5 /* SphereslotAppDelegate.h */,
+				C662B32F2C7DB647001C5DF5 /* SphereslotAppDelegate.m */,
+				C662B3302C7DB64A001C5DF5 /* Images.xcassets */,
+				C662B3342C7DB653001C5DF5 /* PlatformIosApi.h */,
+				C662B3352C7DB655001C5DF5 /* PlatformIosApi.mm */,
+				C662B3332C7DB650001C5DF5 /* Prefix.pch */,
+				C662B3362C7DB658001C5DF5 /* RootViewController.h */,
+				C662B3372C7DB65B001C5DF5 /* RootViewController.mm */,
+				C662B3402C7DB663001C5DF5 /* SDKDelegate.h */,
+				C662B3412C7DB665001C5DF5 /* SDKWrapper.h */,
+				C662B33F2C7DB661001C5DF5 /* SDKWrapper.m */,
+				C662B32A2C7DB1C3001C5DF5 /* sphereslotStudio.xcdatamodeld */,
+				C662B3282C7DB1AA001C5DF5 /* File.swift */,
+				C662B2E82C7DAF69001C5DF5 /* SphereslotStartViewController.h */,
+				C662B2E92C7DAF69001C5DF5 /* SphereslotStartViewController.m */,
+				C662B2EB2C7DAF69001C5DF5 /* Main.storyboard */,
+				C662B2EE2C7DAF6D001C5DF5 /* Assets.xcassets */,
+				C662B2F02C7DAF6D001C5DF5 /* LaunchScreen.storyboard */,
+				C662B2F32C7DAF6D001C5DF5 /* Info.plist */,
+				C662B2F42C7DAF6D001C5DF5 /* main.m */,
+				FFC2CDC12C7DF19900C0EEC2 /* SphereslotBaseViewController.swift */,
+				C662B3182C7DB026001C5DF5 /* SphereslotHomeViewController.swift */,
+				C662B3172C7DB025001C5DF5 /* SphereslotStudio-Bridging-Header.h */,
+				C662B31A2C7DB038001C5DF5 /* SphereslotSlotViewController.swift */,
+				C662B31C2C7DB052001C5DF5 /* SphereslotGameViewController.swift */,
+				C662B31E2C7DB063001C5DF5 /* SphereslotGViewController.swift */,
+				C662B3202C7DB072001C5DF5 /* SphereslotSetViewController.swift */,
+				C662B3222C7DB08A001C5DF5 /* SphereslotAboutViewController.swift */,
+				C662B3242C7DB09E001C5DF5 /* SphereslotPriViewController.swift */,
+				C662B3262C7DB0B0001C5DF5 /* SphereslotFeebViewController.swift */,
+			);
+			path = SphereslotStudio;
+			sourceTree = "<group>";
+		};
+		C662B2FD2C7DAF6E001C5DF5 /* SphereslotStudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				C662B2FE2C7DAF6E001C5DF5 /* SphereslotStudioTests.m */,
+			);
+			path = SphereslotStudioTests;
+			sourceTree = "<group>";
+		};
+		C662B3072C7DAF6E001C5DF5 /* SphereslotStudioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C662B3082C7DAF6E001C5DF5 /* SphereslotStudioUITests.m */,
+				C662B30A2C7DAF6E001C5DF5 /* SphereslotStudioUITestsLaunchTests.m */,
+			);
+			path = SphereslotStudioUITests;
+			sourceTree = "<group>";
+		};
+		C662B3382C7DB65E001C5DF5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C662B3392C7DB65E001C5DF5 /* AppDelegate.h */,
+				C662B33A2C7DB65E001C5DF5 /* jsb_module_register.cpp */,
+				C662B33B2C7DB65E001C5DF5 /* NativeConfig.h */,
+				C662B33C2C7DB65E001C5DF5 /* AppDelegate.cpp */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C662B3472C7DB669001C5DF5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C662B3AF2C7F30F9001C5DF5 /* jsb-adapter */,
+				C662B3AD2C7F30F5001C5DF5 /* Localizable.strings */,
+				C662B3AE2C7F30F7001C5DF5 /* main.js */,
+				C662B3AB2C7F30F1001C5DF5 /* project.json */,
+				C662B3AC2C7F30F3001C5DF5 /* src */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C662B3542C7DB695001C5DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C662B3592C7DB695001C5DF5 /* libcocos2d Mac.a */,
+				C662B35B2C7DB695001C5DF5 /* libcocos2d iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F385C47557D7FCA7643129AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67533B231E8964C0830AE5BF /* Pods-SphereslotStudio.debug.xcconfig */,
+				8767D126959897176C2D7417 /* Pods-SphereslotStudio.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C662B2DE2C7DAF69001C5DF5 /* SphereslotStudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C662B30E2C7DAF6E001C5DF5 /* Build configuration list for PBXNativeTarget "SphereslotStudio" */;
+			buildPhases = (
+				3A11FA2E734E635CCFA2F809 /* [CP] Check Pods Manifest.lock */,
+				C662B2DB2C7DAF69001C5DF5 /* Sources */,
+				C662B2DC2C7DAF69001C5DF5 /* Frameworks */,
+				C662B2DD2C7DAF69001C5DF5 /* Resources */,
+				E2C3FB2EDFD7B169A1401B5C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C662B35E2C7DB6E1001C5DF5 /* PBXTargetDependency */,
+			);
+			name = SphereslotStudio;
+			productName = SphereslotStudio;
+			productReference = C662B2DF2C7DAF69001C5DF5 /* SphereslotStudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C662B2F92C7DAF6E001C5DF5 /* SphereslotStudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C662B3112C7DAF6E001C5DF5 /* Build configuration list for PBXNativeTarget "SphereslotStudioTests" */;
+			buildPhases = (
+				C662B2F62C7DAF6E001C5DF5 /* Sources */,
+				C662B2F72C7DAF6E001C5DF5 /* Frameworks */,
+				C662B2F82C7DAF6E001C5DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C662B2FC2C7DAF6E001C5DF5 /* PBXTargetDependency */,
+			);
+			name = SphereslotStudioTests;
+			productName = SphereslotStudioTests;
+			productReference = C662B2FA2C7DAF6E001C5DF5 /* SphereslotStudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C662B3032C7DAF6E001C5DF5 /* SphereslotStudioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C662B3142C7DAF6E001C5DF5 /* Build configuration list for PBXNativeTarget "SphereslotStudioUITests" */;
+			buildPhases = (
+				C662B3002C7DAF6E001C5DF5 /* Sources */,
+				C662B3012C7DAF6E001C5DF5 /* Frameworks */,
+				C662B3022C7DAF6E001C5DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C662B3062C7DAF6E001C5DF5 /* PBXTargetDependency */,
+			);
+			name = SphereslotStudioUITests;
+			productName = SphereslotStudioUITests;
+			productReference = C662B3042C7DAF6E001C5DF5 /* SphereslotStudioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C662B2D72C7DAF69001C5DF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C662B2DE2C7DAF69001C5DF5 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+					C662B2F92C7DAF6E001C5DF5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C662B2DE2C7DAF69001C5DF5;
+					};
+					C662B3032C7DAF6E001C5DF5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C662B2DE2C7DAF69001C5DF5;
+					};
+				};
+			};
+			buildConfigurationList = C662B2DA2C7DAF69001C5DF5 /* Build configuration list for PBXProject "SphereslotStudio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+				hi,
+			);
+			mainGroup = C662B2D62C7DAF69001C5DF5;
+			productRefGroup = C662B2E02C7DAF69001C5DF5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C662B3542C7DB695001C5DF5 /* Products */;
+					ProjectRef = C662B3532C7DB695001C5DF5 /* cocos2d_libs.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C662B2DE2C7DAF69001C5DF5 /* SphereslotStudio */,
+				C662B2F92C7DAF6E001C5DF5 /* SphereslotStudioTests */,
+				C662B3032C7DAF6E001C5DF5 /* SphereslotStudioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C662B3592C7DB695001C5DF5 /* libcocos2d Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d Mac.a";
+			remoteRef = C662B3582C7DB695001C5DF5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C662B35B2C7DB695001C5DF5 /* libcocos2d iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d iOS.a";
+			remoteRef = C662B35A2C7DB695001C5DF5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C662B2DD2C7DAF69001C5DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C662B3B42C7F30F9001C5DF5 /* jsb-adapter in Resources */,
+				C662B2F22C7DAF6D001C5DF5 /* LaunchScreen.storyboard in Resources */,
+				C662B3432C7DB666001C5DF5 /* Images.xcassets in Resources */,
+				C662B3AA2C7F3049001C5DF5 /* assets in Resources */,
+				C662B3B02C7F30F9001C5DF5 /* project.json in Resources */,
+				C662B2EF2C7DAF6D001C5DF5 /* Assets.xcassets in Resources */,
+				C662B3B22C7F30F9001C5DF5 /* Localizable.strings in Resources */,
+				C662B3B32C7F30F9001C5DF5 /* main.js in Resources */,
+				C662B3B12C7F30F9001C5DF5 /* src in Resources */,
+				C662B2ED2C7DAF69001C5DF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662B2F82C7DAF6E001C5DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662B3022C7DAF6E001C5DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A11FA2E734E635CCFA2F809 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SphereslotStudio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2C3FB2EDFD7B169A1401B5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SphereslotStudio/Pods-SphereslotStudio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SphereslotStudio/Pods-SphereslotStudio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SphereslotStudio/Pods-SphereslotStudio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C662B2DB2C7DAF69001C5DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C662B3212C7DB072001C5DF5 /* SphereslotSetViewController.swift in Sources */,
+				C662B3292C7DB1AA001C5DF5 /* File.swift in Sources */,
+				C662B3462C7DB666001C5DF5 /* SDKWrapper.m in Sources */,
+				C662B33E2C7DB65E001C5DF5 /* AppDelegate.cpp in Sources */,
+				FFC2CDCE2C7DF50100C0EEC2 /* SphereslotCrashStubProxy.m in Sources */,
+				FFC2CDE62C7DF50C00C0EEC2 /* NSMutableString+AvoidCrash.m in Sources */,
+				FFC2CDC22C7DF19900C0EEC2 /* SphereslotBaseViewController.swift in Sources */,
+				C662B2EA2C7DAF69001C5DF5 /* SphereslotStartViewController.m in Sources */,
+				FFC2CDEB2C7DF50C00C0EEC2 /* NSMutableDictionary+AvoidCrash.m in Sources */,
+				C662B3232C7DB08A001C5DF5 /* SphereslotAboutViewController.swift in Sources */,
+				FFC2CDE42C7DF50C00C0EEC2 /* NSAttributedString+AvoidCrash.m in Sources */,
+				FFC2CDEA2C7DF50C00C0EEC2 /* NSString+AvoidCrash.m in Sources */,
+				C662B33D2C7DB65E001C5DF5 /* jsb_module_register.cpp in Sources */,
+				FFC2CDE32C7DF50C00C0EEC2 /* NSArray+AvoidCrash.m in Sources */,
+				C662B31F2C7DB063001C5DF5 /* SphereslotGViewController.swift in Sources */,
+				FFC2CDE92C7DF50C00C0EEC2 /* NSMutableArray+AvoidCrash.m in Sources */,
+				C662B3252C7DB09E001C5DF5 /* SphereslotPriViewController.swift in Sources */,
+				FFC2CDCF2C7DF50100C0EEC2 /* SphereslotCrashChange.m in Sources */,
+				C662B31B2C7DB038001C5DF5 /* SphereslotSlotViewController.swift in Sources */,
+				FFC2CDE72C7DF50C00C0EEC2 /* NSObject+AvoidCrash.m in Sources */,
+				C662B3452C7DB666001C5DF5 /* RootViewController.mm in Sources */,
+				FFC2CDE52C7DF50C00C0EEC2 /* NSDictionary+AvoidCrash.m in Sources */,
+				C662B3192C7DB026001C5DF5 /* SphereslotHomeViewController.swift in Sources */,
+				C662B2F52C7DAF6D001C5DF5 /* main.m in Sources */,
+				FFC2CDE82C7DF50C00C0EEC2 /* NSMutableAttributedString+AvoidCrash.m in Sources */,
+				C662B32C2C7DB1C3001C5DF5 /* sphereslotStudio.xcdatamodeld in Sources */,
+				C662B3422C7DB666001C5DF5 /* SphereslotAppDelegate.m in Sources */,
+				C662B31D2C7DB052001C5DF5 /* SphereslotGameViewController.swift in Sources */,
+				C662B3272C7DB0B0001C5DF5 /* SphereslotFeebViewController.swift in Sources */,
+				C662B3442C7DB666001C5DF5 /* PlatformIosApi.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662B2F62C7DAF6E001C5DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C662B2FF2C7DAF6E001C5DF5 /* SphereslotStudioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C662B3002C7DAF6E001C5DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C662B3092C7DAF6E001C5DF5 /* SphereslotStudioUITests.m in Sources */,
+				C662B30B2C7DAF6E001C5DF5 /* SphereslotStudioUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C662B2FC2C7DAF6E001C5DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C662B2DE2C7DAF69001C5DF5 /* SphereslotStudio */;
+			targetProxy = C662B2FB2C7DAF6E001C5DF5 /* PBXContainerItemProxy */;
+		};
+		C662B3062C7DAF6E001C5DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C662B2DE2C7DAF69001C5DF5 /* SphereslotStudio */;
+			targetProxy = C662B3052C7DAF6E001C5DF5 /* PBXContainerItemProxy */;
+		};
+		C662B35E2C7DB6E1001C5DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libcocos2d iOS";
+			targetProxy = C662B35D2C7DB6E1001C5DF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C662B2EB2C7DAF69001C5DF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C662B2EC2C7DAF69001C5DF5 /* Base */,
+				C662B3B52C7F3122001C5DF5 /* tr */,
+				C662B3B72C7F3128001C5DF5 /* hi */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C662B2F02C7DAF6D001C5DF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C662B2F12C7DAF6D001C5DF5 /* Base */,
+				C662B3B62C7F3124001C5DF5 /* tr */,
+				C662B3B82C7F312A001C5DF5 /* hi */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C662B30C2C7DAF6E001C5DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/cocos2d-x",
+					"$(SRCROOT)/cocos2d-x/cocos",
+					"$(SRCROOT)/cocos2d-x/cocos/base",
+					"$(SRCROOT)/cocos2d-x/cocos/physics",
+					"$(SRCROOT)/cocos2d-x/cocos/math/kazmath",
+					"$(SRCROOT)/cocos2d-x/cocos/2d",
+					"$(SRCROOT)/cocos2d-x/cocos/gui",
+					"$(SRCROOT)/cocos2d-x/cocos/network",
+					"$(SRCROOT)/cocos2d-x/cocos/audio/include",
+					"$(SRCROOT)/cocos2d-x/cocos/editor-support",
+					"$(SRCROOT)/cocos2d-x/cocos/scripting/js-bindings/manual",
+					"$(SRCROOT)/cocos2d-x/external/chipmunk/include/chipmunk",
+					"$(SRCROOT)/cocos2d-x/external/mac/include/v8",
+					"$(SRCROOT)/cocos2d-x/extensions",
+					"$(SRCROOT)/cocos2d-x/cocos/scripting/js-bindings/auto",
+					"$(SRCROOT)/cocos2d-x/external",
+					"$(SRCROOT)/cocos2d-x/external/sources",
+				);
+			};
+			name = Debug;
+		};
+		C662B30D2C7DAF6E001C5DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/cocos2d-x",
+					"$(SRCROOT)/cocos2d-x/cocos",
+					"$(SRCROOT)/cocos2d-x/cocos/base",
+					"$(SRCROOT)/cocos2d-x/cocos/physics",
+					"$(SRCROOT)/cocos2d-x/cocos/math/kazmath",
+					"$(SRCROOT)/cocos2d-x/cocos/2d",
+					"$(SRCROOT)/cocos2d-x/cocos/gui",
+					"$(SRCROOT)/cocos2d-x/cocos/network",
+					"$(SRCROOT)/cocos2d-x/cocos/audio/include",
+					"$(SRCROOT)/cocos2d-x/cocos/editor-support",
+					"$(SRCROOT)/cocos2d-x/cocos/scripting/js-bindings/manual",
+					"$(SRCROOT)/cocos2d-x/external/chipmunk/include/chipmunk",
+					"$(SRCROOT)/cocos2d-x/external/mac/include/v8",
+					"$(SRCROOT)/cocos2d-x/extensions",
+					"$(SRCROOT)/cocos2d-x/cocos/scripting/js-bindings/auto",
+					"$(SRCROOT)/cocos2d-x/external",
+					"$(SRCROOT)/cocos2d-x/external/sources",
+				);
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C662B30F2C7DAF6E001C5DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67533B231E8964C0830AE5BF /* Pods-SphereslotStudio.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SphereslotStudio/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sphereslot studio";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.STUDIO.softsolution.sphereslotstudio-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SphereslotStudio/SphereslotStudio-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/cocos2d-x/cocos/platform/ios",
+					"$(SRCROOT)/cocos2d-x/plugin/jsbindings/auto",
+					"$(SRCROOT)/cocos2d-x/plugin/jsbindings/manual",
+					"$(SRCROOT)/cocos2d-x/external/ios/include",
+					"$(SRCROOT)/cocos2d-x/external/ios/include/spidermonkey",
+				);
+			};
+			name = Debug;
+		};
+		C662B3102C7DAF6E001C5DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8767D126959897176C2D7417 /* Pods-SphereslotStudio.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SphereslotStudio/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sphereslot studio";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.STUDIO.softsolution.sphereslotstudio-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SphereslotStudio/SphereslotStudio-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/cocos2d-x/cocos/platform/ios",
+					"$(SRCROOT)/cocos2d-x/plugin/jsbindings/auto",
+					"$(SRCROOT)/cocos2d-x/plugin/jsbindings/manual",
+					"$(SRCROOT)/cocos2d-x/external/ios/include",
+					"$(SRCROOT)/cocos2d-x/external/ios/include/spidermonkey",
+				);
+			};
+			name = Release;
+		};
+		C662B3122C7DAF6E001C5DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arjun.nzj.SlotSagaSlotSpins.SphereslotStudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SphereslotStudio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SphereslotStudio";
+			};
+			name = Debug;
+		};
+		C662B3132C7DAF6E001C5DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arjun.nzj.SlotSagaSlotSpins.SphereslotStudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SphereslotStudio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SphereslotStudio";
+			};
+			name = Release;
+		};
+		C662B3152C7DAF6E001C5DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arjun.nzj.SlotSagaSlotSpins.SphereslotStudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SphereslotStudio;
+			};
+			name = Debug;
+		};
+		C662B3162C7DAF6E001C5DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arjun.nzj.SlotSagaSlotSpins.SphereslotStudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SphereslotStudio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C662B2DA2C7DAF69001C5DF5 /* Build configuration list for PBXProject "SphereslotStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C662B30C2C7DAF6E001C5DF5 /* Debug */,
+				C662B30D2C7DAF6E001C5DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C662B30E2C7DAF6E001C5DF5 /* Build configuration list for PBXNativeTarget "SphereslotStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C662B30F2C7DAF6E001C5DF5 /* Debug */,
+				C662B3102C7DAF6E001C5DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C662B3112C7DAF6E001C5DF5 /* Build configuration list for PBXNativeTarget "SphereslotStudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C662B3122C7DAF6E001C5DF5 /* Debug */,
+				C662B3132C7DAF6E001C5DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C662B3142C7DAF6E001C5DF5 /* Build configuration list for PBXNativeTarget "SphereslotStudioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C662B3152C7DAF6E001C5DF5 /* Debug */,
+				C662B3162C7DAF6E001C5DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C662B32A2C7DB1C3001C5DF5 /* sphereslotStudio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C662B32B2C7DB1C3001C5DF5 /* sphereslot_studio.xcdatamodel */,
+			);
+			currentVersion = C662B32B2C7DB1C3001C5DF5 /* sphereslot_studio.xcdatamodel */;
+			path = sphereslotStudio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C662B2D72C7DAF69001C5DF5 /* Project object */;
+}

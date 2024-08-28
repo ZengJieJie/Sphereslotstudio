@@ -1,0 +1,22 @@
+PODS:
+  - Adjust (4.38.2):
+    - Adjust/Core (= 4.38.2)
+  - Adjust/Core (4.38.2)
+  - SwiftyGif (5.4.5)
+
+DEPENDENCIES:
+  - Adjust
+  - SwiftyGif
+
+SPEC REPOS:
+  trunk:
+    - Adjust
+    - SwiftyGif
+
+SPEC CHECKSUMS:
+  Adjust: 5a0f813fe079212bed61404d1f635cc330068b4a
+  SwiftyGif: 706c60cf65fa2bc5ee0313beece843c8eb8194d4
+
+PODFILE CHECKSUM: ba2ccf3462ef1b5a9701399a5866a422cbeb7ebf
+
+COCOAPODS: 1.15.2

@@ -1,0 +1,265 @@
+
+/* Class = "UIButton"; normalTitle = "Spin"; ObjectID = "2Oj-t6-MNp"; */
+"2Oj-t6-MNp.normalTitle" = "Spin";
+
+/* Class = "UIButton"; normalTitle = "Feedback"; ObjectID = "42N-w8-Fcl"; */
+"42N-w8-Fcl.normalTitle" = "Feedback";
+
+/* Class = "UILabel"; text = "To sphereslot studio"; ObjectID = "60I-xA-Z4L"; */
+"60I-xA-Z4L.text" = "To sphereslot studio";
+
+/* Class = "UILabel"; text = "Slot game"; ObjectID = "9aM-Sj-TOz"; */
+"9aM-Sj-TOz.text" = "Slot game";
+
+/* Class = "UILabel"; text = "Score"; ObjectID = "EH0-Wr-ZlB"; */
+"EH0-Wr-ZlB.text" = "Score";
+
+/* Class = "UILabel"; text = "Welcome"; ObjectID = "IFy-fr-Sgj"; */
+"IFy-fr-Sgj.text" = "Welcome";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "IXe-V1-9wN"; */
+"IXe-V1-9wN.text" = "Label";
+
+/* Class = "UILabel"; text = "sphereslot studio"; ObjectID = "KgV-Ln-Rzb"; */
+"KgV-Ln-Rzb.text" = "sphereslot studio";
+
+/* Class = "UILabel"; text = "Feedback"; ObjectID = "LGK-ZF-WGL"; */
+"LGK-ZF-WGL.text" = "Feedback";
+
+/* Class = "UILabel"; text = "Fish Slot"; ObjectID = "M1n-sQ-p5N"; */
+"M1n-sQ-p5N.text" = "Fish Slot";
+
+/* Class = "UIButton"; normalTitle = "About Us"; ObjectID = "PgD-lv-dFs"; */
+"PgD-lv-dFs.normalTitle" = "About Us";
+
+/* Class = "UILabel"; text = "Slot Game "; ObjectID = "QQD-5r-UtX"; */
+"QQD-5r-UtX.text" = "Slot Game ";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "Qpo-Ro-6E5"; */
+"Qpo-Ro-6E5.normalTitle" = "Submit";
+
+/* Class = "UITextView"; text = "About Us\nWelcome to SphereSlot Studio!\n\nAt SphereSlot Studio, we are passionate about creating engaging and fun gaming experiences for everyone. Our team of dedicated developers and designers combines creativity and technology to craft unique games that entertain and challenge players.\n\nOur Mission:\nOur mission is to bring joy and excitement to our players by designing games that are not only enjoyable but also innovative. We strive to create games that are accessible to everyone and provide a refreshing twist on traditional gaming concepts.\n\nOur Vision:\nWe envision a world where gaming transcends conventional boundaries, blending creativity with technology to offer new and engaging experiences. Through our games, we aim to foster a sense of adventure and fun while providing high-quality entertainment.\n\nSphereSlot Studio:\nSphereSlot Studio is our flagship slot game app, featuring an exciting underwater adventure with fish-themed slots. Designed to be both accessible and captivating, SphereSlot Studio invites players to tap on fish slots, discover hidden treasures, and experience the thrill of the hunt. Our game is crafted with attention to detail and a commitment to delivering a fun and rewarding experience.\n\nConnect with Us:\nWe value your feedback and are always eager to hear from our players. If you have any suggestions, comments, or just want to share your gaming experience, please reach out to us. Follow us on social media or contact us directly through our website.\n\nThank you for being a part of our gaming community. We hope you enjoy playing SphereSlot Studio as much as we enjoyed creating it!\n\nThe SphereSlot Studio Team"; ObjectID = "S1o-Fc-2bn"; */
+"S1o-Fc-2bn.text" = "Hakkımızda
+
+SphereSlot Stüdyosuna Hoş Geldiniz!
+
+SphereSlot Stüdyosu olarak, herkes için eğlenceli ve ilgi çekici oyun deneyimleri yaratmaya tutkuluyuz. Yetenekli geliştirici ve tasarımcı ekibimiz, yaratıcı fikirleri ve teknolojiyi birleştirerek oyuncuları eğlendiren ve onlara meydan okuyan benzersiz oyunlar tasarlar.
+
+Misyonumuz:
+
+Misyonumuz, oyuncularımıza keyifli ve yenilikçi oyunlar tasarlayarak neşe ve heyecan getirmektir. Herkese hitap eden ve geleneksel oyun konseptlerine taze bir soluk getiren oyunlar yaratmayı hedefliyoruz.
+
+Vizyonumuz:
+
+Oyunların geleneksel sınırları aştığı, yaratıcılığı ve teknolojiyi harmanlayarak yeni ve ilgi çekici deneyimler sunduğu bir dünya hayal ediyoruz. Oyunlarımız aracılığıyla, macera ve eğlence duygusunu teşvik ederken, yüksek kaliteli eğlence sunmayı amaçlıyoruz.
+
+SphereSlot Stüdyosu:
+
+SphereSlot Stüdyosu, balık temalı slot oyunlarıyla heyecan verici bir sualtı macerası sunan amiral gemisi slot oyunumuzdur. Hem erişilebilir hem de büyüleyici olacak şekilde tasarlanmış olan SphereSlot Stüdyosu, oyuncuları balık slotlarına dokunmaya, gizli hazineleri keşfetmeye ve avın heyecanını yaşamaya davet ediyor. Oyunumuz, eğlenceli ve ödüllendirici bir deneyim sunma taahhüdüyle detaylara dikkat edilerek hazırlanmıştır.
+
+Bizimle Bağlantıya Geçin:
+
+Geri bildirimlerinize değer veriyoruz ve her zaman oyuncularımızdan duymak için sabırsızlanıyoruz. Eğer önerileriniz, yorumlarınız varsa veya sadece oyun deneyiminizi paylaşmak istiyorsanız, lütfen bizimle iletişime geçin. Sosyal medyada bizi takip edin veya doğrudan sitemiz üzerinden bizimle iletişime geçin.
+
+Oyun topluluğumuzun bir parçası olduğunuz için teşekkür ederiz. SphereSlot Stüdyosu'nu yaratırken aldığımız keyif kadar, oyunumuzu oynarken sizlerin de keyif almanızı umuyoruz!
+
+SphereSlot Stüdyosu Ekibi";
+
+/* Class = "UILabel"; text = "Result"; ObjectID = "Sez-kM-sDz"; */
+"Sez-kM-sDz.text" = "Result";
+
+/* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "YlK-Cf-dWe"; */
+"YlK-Cf-dWe.text" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "About Us"; ObjectID = "a9y-g0-s3N"; */
+"a9y-g0-s3N.text" = "About Us";
+
+/* Class = "UIButton"; normalTitle = "Let's Play"; ObjectID = "awW-PG-FPw"; */
+"awW-PG-FPw.normalTitle" = "Let's Play";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "cGN-Tb-V85"; */
+"cGN-Tb-V85.text" = "Settings";
+
+/* Class = "UILabel"; text = "Choose fish & win Coin"; ObjectID = "dnx-e9-TiM"; */
+"dnx-e9-TiM.text" = "Choose fish & win Coin";
+
+/* Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "ePE-pH-MHj"; */
+"ePE-pH-MHj.normalTitle" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "Fish Slot"; ObjectID = "fL1-A9-tSj"; */
+"fL1-A9-tSj.text" = "Fish Slot";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fjs-ut-8AC"; */
+"fjs-ut-8AC.text" = "Label";
+
+/* Class = "UITextView"; text = "Privacy Policy\nLast updated: July 31, 2024\n\nThis Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.\n\nWe use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the Privacy Policy Generator.\n\nInterpretation and Definitions\nInterpretation\nThe words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.\n\nDefinitions\nFor the purposes of this Privacy Policy:\n\nAccount means a unique account created for You to access our Service or parts of our Service.\n\nAffiliate means an entity that controls, is controlled by or is under common control with a party, where \"control\" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.\n\nApplication refers to SphereSlot Studio, the software program provided by the Company.\n\nCompany (referred to as either \"the Company\", \"We\", \"Us\" or \"Our\" in this Agreement) refers to SphereSlot Studio.\n\nCountry refers to: Gujarat, India\n\nDevice means any device that can access the Service such as a computer, a cellphone or a digital tablet.\n\nPersonal Data is any information that relates to an identified or identifiable individual.\n\nService refers to the Application.\n\nService Provider means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.\n\nUsage Data refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).\n\nYou means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.\n\nCollecting and Using Your Personal Data\nTypes of Data Collected\nPersonal Data\nWhile using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:\n\nUsage Data\nUsage Data\nUsage Data is collected automatically when using the Service.\n\nUsage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.\n\nWhen You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.\n\nWe may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.\n\nUse of Your Personal Data\nThe Company may use Personal Data for the following purposes:\n\nTo provide and maintain our Service, including to monitor the usage of our Service.\n\nTo manage Your Account: to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.\n\nFor the performance of a contract: the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.\n\nTo contact You: To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.\n\nTo provide You with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.\n\nTo manage Your requests: To attend and manage Your requests to Us.\n\nFor business transfers: We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.\n\nFor other purposes: We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.\n\nWe may share Your personal information in the following situations:\n\nWith Service Providers: We may share Your personal information with Service Providers to monitor and analyze the use of our Service, to contact You.\nFor business transfers: We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.\nWith Affiliates: We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.\nWith business partners: We may share Your information with Our business partners to offer You certain products, services or promotions.\nWith other users: when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.\nWith Your consent: We may disclose Your personal information for any other purpose with Your consent.\nRetention of Your Personal Data\nThe Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.\n\nThe Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.\n\nTransfer of Your Personal Data\nYour information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.\n\nYour consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.\n\nThe Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.\n\nDelete Your Personal Data\nYou have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.\n\nOur Service may give You the ability to delete certain information about You from within the Service.\n\nYou may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any personal information that You have provided to Us.\n\nPlease note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so.\n\nDisclosure of Your Personal Data\nBusiness Transactions\nIf the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.\n\nLaw enforcement\nUnder certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).\n\nOther legal requirements\nThe Company may disclose Your Personal Data in the good faith belief that such action is necessary to:\n\nComply with a legal obligation\nProtect and defend the rights or property of the Company\nPrevent or investigate possible wrongdoing in connection with the Service\nProtect the personal safety of Users of the Service or the public\nProtect against legal liability\nSecurity of Your Personal Data\nThe security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.\n\nChildren's Privacy\nOur Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.\n\nIf We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.\n\nLinks to Other Websites\nOur Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.\n\nWe have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.\n\nChanges to this Privacy Policy\nWe may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.\n\nWe will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the \"Last updated\" date at the top of this Privacy Policy.\n\nYou are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.\n\nContact Us\nIf you have any questions about this Privacy Policy, You can contact us:\n\nBy email: help@gmail.com"; ObjectID = "i2l-r0-tr4"; */
+"i2l-r0-tr4.text" = "Gizlilik Politikası
+
+Son güncelleme: 31 Temmuz 2024
+
+Bu Gizlilik Politikası, Hizmeti kullandığınızda Bilgilerinizin toplanması, kullanılması ve ifşa edilmesine ilişkin politikalarımızı ve prosedürlerimizi ve gizlilik haklarınız ile yasaların sizi nasıl koruduğunu açıklar.
+
+Kişisel verilerinizi Hizmeti sunmak ve iyileştirmek için kullanıyoruz. Hizmeti kullanarak, bu Gizlilik Politikası uyarınca bilgilerin toplanmasını ve kullanılmasını kabul edersiniz. Bu Gizlilik Politikası, Gizlilik Politikası Oluşturucu'nun yardımıyla oluşturulmuştur.
+
+Yorumlama ve Tanımlar
+
+Yorumlama
+
+İlk harfi büyük olan kelimeler, aşağıdaki koşullara göre tanımlanmış anlamlara sahiptir. Aşağıdaki tanımlar, tekil veya çoğul olarak görünmelerine bakılmaksızın aynı anlama sahiptir.
+
+Tanımlar
+
+Bu Gizlilik Politikası'nın amaçları doğrultusunda:
+
+Hesap: Hizmetimize veya Hizmetimizin bir kısmına erişim sağlamak için oluşturulan benzersiz bir hesabı ifade eder.
+
+Bağlı Kuruluş: Bir tarafın kontrol ettiği, tarafın kontrol ettiği veya tarafın ortak kontrolü altında olan bir kuruluş anlamına gelir; burada "kontrol", yöneticilerin veya diğer yönetim otoritelerinin seçiminde oy kullanma hakkı olan hisselerin, öz sermaye paylarının veya diğer menkul kıymetlerin %50 veya daha fazlasına sahip olmayı ifade eder.
+
+Uygulama: Şirket tarafından sağlanan SphereSlot Studio yazılım programını ifade eder.
+
+Şirket (bu Anlaşmada "Şirket", "Biz", "Bizi" veya "Bizim" olarak anılacaktır), SphereSlot Studio'yu ifade eder.
+
+Ülke: Gujarat, Hindistan anlamına gelir.
+
+Cihaz: Hizmete erişim sağlayabilen bir bilgisayar, cep telefonu veya dijital tablet gibi herhangi bir cihaz anlamına gelir.
+
+Kişisel Veri: Tanımlanmış veya tanımlanabilir bir bireyle ilgili herhangi bir bilgi anlamına gelir.
+
+Hizmet: Uygulamayı ifade eder.
+
+Hizmet Sağlayıcı: Verileri Şirket adına işleyen herhangi bir gerçek veya tüzel kişi anlamına gelir. Bu, Hizmeti kolaylaştırmak, Hizmeti Şirket adına sunmak, Hizmetle ilgili hizmetleri yerine getirmek veya Hizmetin nasıl kullanıldığını analiz etmede Şirkete yardımcı olmak için istihdam edilen üçüncü taraf şirketleri veya bireyleri ifade eder.
+
+Kullanım Verileri: Hizmetin kullanımıyla veya Hizmet altyapısının kendisi tarafından otomatik olarak toplanan verilerdir (örneğin, bir sayfa ziyaretinin süresi).
+
+Siz: Hizmete erişen veya Hizmeti kullanan birey veya bu tür bir bireyin adına Hizmete erişen veya Hizmeti kullanan şirket veya diğer tüzel kişilik anlamına gelir.
+
+Kişisel Verilerinizin Toplanması ve Kullanılması
+
+Toplanan Veri Türleri
+
+Kişisel Veri
+
+Hizmetimizi kullanırken, sizinle iletişime geçmek veya sizi tanımlamak için kullanılabilecek belirli kişisel olarak tanımlanabilir bilgileri sağlamanızı isteyebiliriz. Kişisel olarak tanımlanabilir bilgiler şunları içerebilir, ancak bunlarla sınırlı değildir:
+
+Kullanım Verileri
+
+Kullanım Verileri Hizmeti kullanırken otomatik olarak toplanır.
+
+Kullanım Verileri, Cihazınızın İnternet Protokolü adresi (örneğin, IP adresi), tarayıcı türü, tarayıcı sürümü, Hizmetimizin ziyaret ettiğiniz sayfaları, ziyaretinizin tarihi ve saati, bu sayfalarda geçirilen süre, benzersiz cihaz tanımlayıcıları ve diğer tanı verilerini içerebilir.
+
+Hizmete bir mobil cihazla eriştiğinizde veya Hizmete bir mobil cihazla eriştiğinizde, kullandığınız mobil cihazın türü, mobil cihazınızın benzersiz kimliği, mobil cihazınızın IP adresi, mobil işletim sistemi, kullandığınız mobil İnternet tarayıcı türü, benzersiz cihaz tanımlayıcıları ve diğer tanı verileri dahil olmak üzere belirli bilgileri otomatik olarak toplayabiliriz.
+
+Tarayıcınızın Hizmetimizi her ziyaret ettiğinizde veya bir mobil cihazla Hizmete eriştiğinizde gönderdiği bilgileri de toplayabiliriz.
+
+Kişisel Verilerinizin Kullanımı
+
+Şirket, Kişisel Verileri aşağıdaki amaçlar için kullanabilir:
+
+Hizmetimizi sağlamak ve sürdürmek için: Hizmetimizin kullanımını izlemek de dahil olmak üzere.
+
+Hesabınızı yönetmek için: Hizmetin bir kullanıcısı olarak kaydınızı yönetmek için. Sağladığınız Kişisel Veriler, kayıtlı bir kullanıcı olarak size sunulan Hizmetin farklı işlevlerine erişim sağlamanıza olanak tanıyabilir.
+
+Bir sözleşmenin ifası için: Satın aldığınız ürünlerin, öğelerin veya hizmetlerin satın alma sözleşmesinin geliştirilmesi, uyumlu hale getirilmesi ve uygulanması veya Hizmet aracılığıyla bizimle yapılan herhangi bir sözleşme.
+
+Sizinle iletişim kurmak için: Sizinle e-posta, telefon aramaları, SMS veya bir mobil uygulamanın push bildirimleri gibi eşdeğer elektronik iletişim biçimleriyle, güncellemeler veya işlevsellik, ürünler veya sözleşmeli hizmetlerle ilgili bilgilendirici iletişimler hakkında iletişim kurmak için; güvenlik güncellemeleri de dahil olmak üzere, gerekli veya makul olduğunda.
+
+Size haberler, özel teklifler ve daha önce satın aldığınız veya hakkında bilgi aldığınız ürünlere, hizmetlere ve etkinliklere benzer diğer mal, hizmet ve etkinlikler hakkında genel bilgiler sağlamak için; aksi takdirde bu tür bilgileri almak istemediğinizi belirtmediğiniz sürece.
+
+Taleplerinizi yönetmek için: Taleplerinizi karşılamak ve yönetmek için.
+
+İş transferleri için: Bilgilerinizi, birleşme, devretme, yeniden yapılandırma, yeniden organize etme, tasfiye etme veya diğer varlık satış veya transferlerinde değerlendirmek veya yürütmek amacıyla kullanabiliriz. Bu tür işlemlerde, Şirketimiz kullanıcıları hakkında sahip olduğumuz Kişisel Veriler, devredilen varlıklar arasında yer alabilir.
+
+Diğer amaçlar için: Bilgilerinizi diğer amaçlar için, veri analizi, kullanım trendlerini belirleme, tanıtım kampanyalarımızın etkinliğini değerlendirme ve Hizmetimizi, ürünlerimizi, hizmetlerimizi, pazarlama stratejimizi ve deneyiminizi geliştirmek için kullanabiliriz.
+
+Kişisel bilgilerinizi aşağıdaki durumlarda paylaşabiliriz:
+
+Hizmet Sağlayıcılarla: Hizmetimizin kullanımını izlemek ve analiz etmek, Sizinle iletişim kurmak için kişisel bilgilerinizi Hizmet Sağlayıcılarla paylaşabiliriz.
+
+İş transferleri için: Kişisel bilgilerinizi, bir birleşme, Şirket varlıklarının satışı, finansman veya işimizin bir kısmının veya tamamının başka bir şirkete devri sırasında veya bu tür bir durumun müzakereleri sırasında paylaşabilir veya devredebiliriz.
+
+Bağlı Kuruluşlarla: Bilgilerinizi bağlı kuruluşlarımızla paylaşabiliriz, bu durumda bu bağlı kuruluşlardan bu Gizlilik Politikasına uymalarını talep ederiz. Bağlı kuruluşlar, ana şirketimiz ve bizim kontrol ettiğimiz veya ortak kontrol altında olduğumuz diğer tüm yan kuruluşlar, ortak girişim ortakları veya diğer şirketleri içerir.
+
+İş ortaklarıyla: Bilgilerinizi iş ortaklarımızla, size belirli ürünler, hizmetler veya promosyonlar sunmak amacıyla paylaşabiliriz.
+
+Diğer kullanıcılarla: Kişisel bilgilerinizi paylaştığınızda veya kamuya açık alanlarda diğer kullanıcılarla etkileşimde bulunduğunuzda, bu tür bilgiler tüm kullanıcılar tarafından görüntülenebilir ve kamuya açık bir şekilde dağıtılabilir.
+
+Onayınızla: Kişisel bilgilerinizi başka bir amaçla onayınızla ifşa edebiliriz.
+
+Kişisel Verilerinizin Saklanması
+
+Şirket, Kişisel Verilerinizi yalnızca bu Gizlilik Politikasında belirtilen amaçlar için gerekli olduğu sürece saklayacaktır. Kişisel Verilerinizi, yasal yükümlülüklerimize uymak (örneğin, geçerli yasalara uymak için verilerinizi saklamamız gerekiyorsa), anlaşmazlıkları çözmek ve yasal anlaşmalarımızı ve politikalarımızı uygulamak için gereken ölçüde saklayacak ve kullanacağız.
+
+Şirket ayrıca Kullanım Verilerini dahili analiz amaçları için saklayacaktır. Kullanım Verileri genellikle daha kısa bir süre saklanır, ancak bu veriler Hizmetimizin güvenliğini güçlendirmek veya işlevselliğini iyileştirmek için kullanıldığında veya yasalar gereği bu verileri daha uzun süre saklamamız gerektiğinde bu durum geçerli değildir.
+
+Kişisel Verilerinizin Aktarılması
+
+Bilgileriniz, Kişisel Veriler de dahil olmak üzere, Şirketin faaliyet gösterdiği ofislerde ve işleme sürecine dahil olan tarafların bulunduğu herhangi bir yerde işlenir. Bu, bu bilgilerin, veri koruma yasalarının sizin yargı bölgenizdekilerden farklı olabileceği eyalet, il, ülke veya başka bir devlet yetkisinin dışındaki bilgisayarlara aktarılabileceği ve bu bilgisayarlarda saklanabileceği anlamına gelir.
+
+Bu Gizlilik Politikasına onayınız ve bu tür bilgileri göndermeniz, bu aktarıma rıza gösterdiğiniz anlamına gelir.
+
+Şirket, Verilerinizin bu Gizlilik Politikası'na uygun olarak güvenli bir şekilde işlenmesini sağlamak için makul tüm adımları atacaktır ve Kişisel Verilerinizin güvenliği ve diğer kişisel bilgileriniz için yeterli kontrollerin bulunmadığı bir kuruluşa veya ülkeye Kişisel Verilerinizin aktarılması gerçekleşmeyecektir.
+
+Kişisel Verilerinizi Silin
+
+Topladığımız Kişisel Verilerin silinmesini veya silinmesi konusunda bize yardımcı olmamızı talep etme hakkına sahipsiniz.
+
+Hizmetimiz, belirli bilgilerinizi Hizmet içinde silme olanağı sağlayabilir.
+
+Bir hesabınız varsa, herhangi bir zamanda hesabınıza giriş yaparak, kişisel bilgilerinizi yönetmenize olanak tanıyan hesap ayarları bölümünü ziyaret ederek bilgilerinizi güncelleyebilir, değiştirebilir veya silebilirsiniz. Bize sağladığınız herhangi bir kişisel bilgiye erişim, düzeltme veya silme talebinde bulunmak için de bizimle iletişime geçebilirsiniz.
+
+Ancak, yasal bir zorunluluğumuz veya yasal bir gerekçemiz olduğunda belirli bilgileri saklamamız gerekebileceğini unutmayın.
+
+Kişisel Verilerinizin İfşası
+
+İşlemeler
+
+Şirket, bir birleşme, devralma veya varlık satışı durumunda, Kişisel Verilerinizin transfer edilebileceğini belirtir. Kişisel Verileriniz transfer edilmeden önce ve farklı bir Gizlilik Politikasına tabi olmadan önce size bildirimde bulunacağız.
+
+Kanun Uygulama
+
+Şirket, belirli durumlarda, kanunen veya kamu otoritelerinin geçerli taleplerine yanıt olarak (örneğin, bir mahkeme veya devlet kurumu gibi) Kişisel Verilerinizi ifşa etmek zorunda kalabilir.
+
+Diğer Yasal Gereklilikler
+
+Şirket, Kişisel Verilerinizi, şu durumlarda, iyi niyetle, ifşa edebilir:
+
+Yasal bir zorunluluğa uymak
+Şirketin haklarını veya mülkiyetini korumak ve savunmak
+Hizmetle ilgili olası bir yanlış davranışı önlemek veya araştırmak
+Hizmet kullanıcılarının veya kamunun kişisel güvenliğini korumak
+Yasal sorumluluğa karşı korunmak
+Kişisel Verilerinizin Güvenliği
+
+Kişisel Verilerinizin güvenliği bizim için önemlidir, ancak internet üzerinden veri iletiminin veya elektronik depolama yönteminin hiçbir yönteminin %100 güvenli olmadığını unutmayın. Kişisel Verilerinizi korumak için ticari olarak kabul edilebilir yöntemler kullanmaya çalışırken, mutlak güvenliğini garanti edemeyiz.
+
+Çocukların Gizliliği
+
+Hizmetimiz, 13 yaş altındaki hiç kimseyi hedeflememektedir. 13 yaşın altındaki herhangi bir kişiden bilerek kişisel olarak tanımlanabilir bilgiler toplamıyoruz. Ebeveyn veya vasiyseniz ve çocuğunuzun bize Kişisel Veri sağladığını biliyorsanız, lütfen bizimle iletişime geçin. 13 yaş altındaki herhangi bir kişiden ebeveyn onayı olmadan Kişisel Veri topladığımızı fark edersek, bu bilgileri sunucularımızdan kaldırmak için adımlar atarız.
+
+Bilgilerinizi toplamak ve kullanmak için yasal bir gerekçe olarak rızaya dayanmamız gerekiyorsa ve ülkeniz ebeveyn rızası gerektiriyorsa, bu bilgileri toplamadan ve kullanmadan önce ebeveyninizin onayını alabiliriz.
+
+Diğer Web Sitelerine Bağlantılar
+
+Hizmetimiz, bizim tarafımızdan işletilmeyen diğer web sitelerine bağlantılar içerebilir. Üçüncü taraf bir bağlantıya tıklarsanız, o üçüncü tarafın sitesine yönlendirileceksiniz. Ziyaret ettiğiniz her sitenin Gizlilik Politikasını gözden geçirmenizi şiddetle tavsiye ederiz.
+
+Üçüncü taraf sitelerin veya hizmetlerin içeriği, gizlilik politikaları veya uygulamaları üzerinde hiçbir kontrolümüz yoktur ve hiçbir sorumluluk kabul etmeyiz.
+
+Bu Gizlilik Politikasındaki Değişiklikler
+
+Gizlilik Politikamızı zaman zaman güncelleyebiliriz. Herhangi bir değişiklik hakkında sizi bu sayfada yeni Gizlilik Politikasını yayınlayarak bilgilendireceğiz.
+
+Değişiklik yürürlüğe girmeden önce, size e-posta yoluyla ve/veya Hizmetimizde önemli bir bildirimde bulunarak ve "Son güncelleme" tarihini güncelleyerek size bildireceğiz.
+
+Bu Gizlilik Politikasını periyodik olarak gözden geçirmeniz önerilir. Bu Gizlilik Politikasındaki değişiklikler, bu sayfada yayınlandığında yürürlüğe girer.
+
+Bizimle İletişime Geçin
+
+Bu Gizlilik Politikası hakkında herhangi bir sorunuz varsa, bizimle şu şekilde iletişime geçebilirsiniz:
+
+E-posta ile: lpbrzresy76@gmx.com";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nDC-i9-eph"; */
+"nDC-i9-eph.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "w5d-Bj-ZRq"; */
+"w5d-Bj-ZRq.text" = "Label";
